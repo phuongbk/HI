@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>Mini Game</title>
+
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+    	<link href="css/style.css" rel="stylesheet">
+    	<link href="css/abc.css" rel="stylesheet">
+	</head>
+	
+	<body>
+
+		<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-5 col-md-3">
+						<h1>
+							<a href="#" class="logo" rel="nofollow">play game</a>
+						</h1>
+					</div>
+					<div class="col-xs-6 col-md-4"  style="height:39px;padding-top: 3px;">
+						<div class="input-group">
+					      	<input type="text" class="form-control" placeholder="Search game">
+					      	<span class="input-group-btn">
+					        	<button class="btn btn-default search-btn" type="button" style="padding:2px 6px 3px 6px;"></button>
+					      	</span>
+					    </div>
+					</div>
+
+					<div class="col-xs-5 col-md-3 login">
+						<div class="row">
+							<div class="col-xs-6 col-md-8">
+								<p class="text-right">Singup/Login</p>
+							</div>
+							<div class="col-xs-6 col-md-4">
+								<a href="#">
+									<img src="img/header/fb.png" width="24" height="24">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-2 text-right">
+						<a href="#" class="language">
+							<img src="img/header/US.png" width="44" height="32">
+						</a>
+					</div>
+				</div>	
+		  	</div>
+		</header>
+
+		<nav class="navbar navbar-default margin-bottom-0" role="navigation">
+			<div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand home" href="#"></a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav nav-border">
+			        <li><a href="#" class="link-pool">Pool</a></li>
+			        <li><a href="#" class="link-agar-io">Agar.io</a></li>
+			        <li><a href="#" class="link-tanki">Tanki</a></li>
+			        <li><a href="#" class="cat-13">Action</a></li>
+			        <li><a href="#" class="cat-3">Sports</a></li>
+			        <li><a href="#" class="cat-2">Multiplayer</a></li>
+			        <li><a href="#" class="cat-1151">Stunt</a></li>
+			        <li><a href="#" class="cat-477">Racing</a></li>
+			        <li><a href="#" class="cat-1">Puzzle</a></li>
+			        <li><a href="#" class="cat-23">Top 100</a></li>
+			        <li data-toggle="modal" data-target="#myModal">
+			        	<a href="#" class="more-menu"></a>
+			        </li>
+			        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					        <h4 class="modal-title" id="myModalLabel">Game Categories</h4>
+					      </div>
+					      <div class="modal-body">
+					        ...
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+			      </ul>
+			
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+		</nav>
+
+
+		<div id="content">
+			<div class="container">
+
+			<!-- B: Sestion 1 -->
+				<div id="section-1" class="row">
+					<div id="carousel-example-generic" class="carousel slide col-sm-5 slide-show border-style" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="img/slide_show/Bear-in-Super.jpg" alt="Bear in Super">
+								<div class="carousel-caption">
+							  </div>
+							</div>
+							<div class="item">
+								<img src="img/slide_show/Serious-Dave.jpg" alt="Serious-Dave">
+								<div class="carousel-caption">
+							  </div>
+							</div>
+							<div class="item">
+								<img src="img/slide_show/forgeofempires.jpg" alt="forgeofempires">
+								<div class="carousel-caption">
+							  </div>
+							</div>
+						</div>
+
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div>
+					<div class="col-sm-3">
+						<div id="hot-games" class="table-games">
+							<a href="#">
+								<button type="button" class="btn btn-default hot-games table-games-top-bt">
+								<span class="table-games-bt" >Hot Games</span>
+								</button>
+							</a>
+				        	<ul class="abc">
+				        		<li>
+				        			<a href="#" class="game-icon">
+				        				<img src="img/hot_games/8-Ball-Pool.jpg" width="90%" class="img-rounded">
+				        				<span>8 Ball Pool</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon" >
+				        				<img src="img/hot_games/tanki.jpg" width="90%"  class="img-rounded">
+				        			
+				        				<span>Tanki Online</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon" width="80px">
+				        				<img src="img/hot_games/adventure.jpg" width="90%"  class="img-rounded">
+				        				<span>Ad Capitalist</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon">
+				        				<img src="img/hot_games/contract_wars.jpg" width="90%"  class="img-rounded">
+				        				<span>Contract Wars</span>
+				        			</a>
+				        		</li>
+				        	</ul>
+				        	<div class="clearfix"></div>
+				        	<a href="#">
+				        		<button type="button" class="btn btn-default more-games table-games-bottom-bt">
+				        		<span class="table-games-bt">More Hot Games</span>
+				        		</button>
+				        	</a>
+				      	</div>
+					</div>
+
+					<div id="ads" class="col-sm-4 border-style">
+						<div class="ads ">
+							
+						</div>
+						<div>
+							<p>
+								Advertisement
+								<span><a href="#">Feedback</a> </span>
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<!-- E: Sestion 1 -->
+
+
+				<!-- B: Sestion 2 -->
+				<div id="section-2" class="row">
+
+					<!-- B: col-sm-5 -->
+					<div class="slide col-sm-5">
+						<div class="row">
+
+							<!-- B: top-10-games -->
+							<div id="top-10-games" class="col-sm-5 border-style">
+								<ul>
+									<li>
+										<a href="#">
+											<button class="btn btn-default">
+												<span>
+													Top 10 Web Games
+												</span>
+											</button>
+										</a>
+									</li>
+									<li  class="top-10-games-a">
+										<span>1</span>
+										<a href="#">8 Ball Pool</a>
+									</li>
+									<li   class="top-10-games-b">
+										<span>2</span>
+										<a href="#">Stealth Sniper 2</a>
+									</li>
+									<li  class="top-10-games-a">
+										<span>3</span>
+										<a href="#">8 Ball Pool</a>
+									</li>
+									<li   class="top-10-games-b">
+										<span>4</span>
+										<a href="#">Stealth Sniper 2</a>
+									</li>
+									<li  class="top-10-games-a">
+										<span>5</span>
+										<a href="#">8 Ball Pool</a>
+									</li>
+									<li   class="top-10-games-b">
+										<span>6</span>
+										<a href="#">Stealth Sniper 2</a>
+									</li>
+									<li  class="top-10-games-a">
+										<span>7</span>
+										<a href="#">8 Ball Pool</a>
+									</li>
+									<li   class="top-10-games-b">
+										<span>8</span>
+										<a href="#">Stealth Sniper 2</a>
+									</li>
+									<li  class="top-10-games-a">
+										<span>9</span>
+										<a href="#">8 Ball Pool</a>
+									</li>
+									<li   class="top-10-games-b">
+										<span>10</span>
+										<a href="#">Stealth Sniper 2</a>
+									</li>
+								</ul>
+							</div> <!-- E: top-10-games -->
+
+							<!-- B: action-games -->
+							<div class="col-sm-7">
+								<div id="action-games" class="table-games">
+									<a href="#">
+										<button type="button" class="btn btn-default cat-13 table-games-top-bt margin-bottom-20">
+										<span class="table-games-bt" >Action Games</span>
+										</button>
+									</a>
+						        	<ul class="abc">
+						        		<li>
+						        			<a href="#" class="game-icon">
+						        				<img src="img/action_games/StealthSniper2.jpg" width="90%" class="img-rounded">
+						        				<span>Sniper 2</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon" >
+						        				<img src="img/action_games/WrestleJump.jpg" width="90%"  class="img-rounded">
+						        				<span>Wrestle Jump</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon" width="80px">
+						        				<img src="img/action_games/Happy_wheels.jpg" width="90%"  class="img-rounded">
+						        				<span>Happy wheels</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon">
+						        				<img src="img/action_games/broforce.jpg" width="90%"  class="img-rounded">
+						        				<span>broforce</span>
+						        			</a>
+						        		</li>
+						        	</ul>
+						        	<div class="clearfix"></div>
+						        	<a href="#">
+						        		<button type="button" class="btn btn-default more-games table-games-bottom-bt section-2-btn">
+						        		<span class="table-games-bt">More Action Games</span>
+						        		</button>
+						        	</a>
+						      	</div>
+							</div>  <!-- E: action-games -->
+						</div>
+					</div> <!-- E: col-sm-5 -->
+
+
+
+					<div class="col-sm-3">
+						<div id="sport-games" class="table-games">
+							<a href="#">
+								<button type="button" class="btn btn-default cat-3 table-games-top-bt margin-bottom-20">
+								<span class="table-games-bt" >Sports</span>
+								</button>
+							</a>
+				        	<ul class="abc">
+				        		<li>
+				        			<a href="#" class="game-icon">
+				        				<img src="img/sport_games/MiniSoccer.jpg" width="90%" class="img-rounded">
+				        				<span>Mini Soccer</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon" >
+				        				<img src="img/sport_games/urbanbasketball.jpg" width="90%"  class="img-rounded">
+				        			
+				        				<span>Basketball</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon" width="80px">
+				        				<img src="img/sport_games/soccer_physics.jpg" width="90%"  class="img-rounded">
+				        				<span>soccer</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon">
+				        				<img src="img/sport_games/DartsDaily.jpg" width="90%"  class="img-rounded">
+				        				<span>Darts Daily</span>
+				        			</a>
+				        		</li>
+				        	</ul>
+				        	<div class="clearfix"></div>
+				        	<a href="#">
+				        		<button type="button" class="btn btn-default more-games table-games-bottom-bt section-2-btn">
+				        		<span class="table-games-bt">More Sports Games</span>
+				        		</button>
+				        	</a>
+				      	</div>
+					</div>
+
+					<div class="col-sm-4 bs-example bs-example-tabs table-games mobile-games">
+						<ul id="myTab" class="nav nav-tabs" role="tablist">
+						    <li class="active">
+						    	<a href="#iphone-games" role="tab" data-toggle="tab">
+						    		iPhone
+						    	</a>
+						    </li>
+						    <li class="">
+						    	<a href="#android-games" role="tab" data-toggle="tab">
+						    		Androi
+						    	</a>
+						    </li>
+						</ul>
+
+						<div id="myTabContent" class="tab-content">
+					    	<div class="tab-pane fade  active in" id="iphone-games">
+					        	<ul class="abc">
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/8BallPool.png" width="85%" height="80px"  class="img-rounded" >
+					        				<span>8 BallPool</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/Agar.io.png"width="85%" height="80px"  class="img-rounded">
+					        				<span>Agar.io</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/BasketballStars.png" width="85%" height="80px"  class="img-rounded">
+					        				<span>Basketball Stars</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/BowlingKing.png" width="85%" height="80px"  class="img-rounded">
+					        				<span>Bowling King</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/DudePerfect.png" width="85%" height="80px"  class="img-rounded">
+					        				<span>Dude Perfect</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/SoccerStars.png" width="85%" height="80px"  class="img-rounded">
+					        				<span>Soccer Stars</span>
+					        			</a>
+					        			
+					        		</li>
+					        	</ul>
+					        	<div class="clearfix"></div>
+					        	<button type="button" class="btn btn-default">More iOS Games</button>
+					      	</div>
+					      <div class="tab-pane fade " id="android-games">
+					        	<ul class="abc">
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/8BallPool.png" width="85%" height="80px"  class="img-rounded" >
+					        				<span>8 BallPool</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/Agar.io.png"width="85%" height="80px"  class="img-rounded">
+					        				<span>Agar.io</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/BasketballStars.png" width="85%" height="80px"  class="img-rounded">
+					        				<span>Basketball Stars</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/BowlingKing.png" width="85%" height="80px"  class="img-rounded">
+					        				<span>Bowling King</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/DudePerfect.png" width="85%" height="80px"  class="img-rounded">
+					        				<span>Dude Perfect</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/SoccerStars.png" width="85%" height="80px"  class="img-rounded">
+					        				<span>Soccer Stars</span>
+					        			</a>
+					        			
+					        		</li>
+					        	</ul>
+					        	<div class="clearfix"></div>
+					        	<button type="button" class="btn btn-default">More Android Games</button>
+					      	</div>
+					    </div>
+						
+					</div>
+
+				</div>
+				<!-- E: Sestion 2 -->
+
+				<!-- B: Sestion 3 -->
+				<div id="section-3" class="row">
+
+					<div id="section-3-left" class="col-sm-5">
+						<a href="#">
+							<img src="img/click_to_play/empire_spring.jpg" width="100%" class="border-style">
+						</a>
+					</div>
+
+					<div class="col-sm-3">
+						<div id="hot-games" class="table-games">
+							<a href="#">
+								<button type="button" class="btn btn-default cat-477 table-games-top-bt">
+								<span class="table-games-bt" >Racing</span>
+								</button>
+							</a>
+				        	<ul class="abc">
+				        		<li>
+				        			<a href="#" class="game-icon">
+				        				<img src="img/racing_games/gokartgoultra.jpg" width="90%" class="img-rounded">
+				        				<span>GoKartGo Ult</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon" >
+				        				<img src="img/racing_games/Street-Race-Fury.jpg" width="90%"  class="img-rounded">
+				        			
+				        				<span>Street Race</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon" width="80px">
+				        				<img src="img/racing_games/supercarshowdown.jpg" width="90%"  class="img-rounded">
+				        				<span>Supercar</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon">
+				        				<img src="img/racing_games/turboracing3.jpg" width="90%"  class="img-rounded">
+				        				<span>Turboracing3</span>
+				        			</a>
+				        		</li>
+				        	</ul>
+				        	<div class="clearfix"></div>
+				        	<a href="#">
+				        		<button type="button" class="btn btn-default more-games table-games-bottom-bt margin-top-35">
+				        		<span class="table-games-bt">More Racing Games</span>
+				        		</button>
+				        	</a>
+				      	</div>
+					</div>
+
+					<div id="video" class="col-sm-4">
+						<div>
+							<a href="#">
+								<img src="img/click_to_play/eastercomingsoon.jpg" width="100%" class="border-style">
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<!-- E: Sestion 3 -->
+
+
+				<!-- B: Sestion 4 -->
+				<div id="section-4" class="row">
+
+					<!-- B: col-sm-5 -->
+					<div class="slide col-sm-5">
+						<div class="row">
+
+							<!-- B: top-10-games -->
+							<div id="stunt-games" class="col-sm-6">
+								<div class="table-games">
+									<a href="#">
+										<button type="button" class="btn btn-default cat-1151 table-games-top-bt margin-bottom-20">
+										<span class="table-games-bt" >Stunt Games</span>
+										</button>
+									</a>
+						        	<ul class="abc">
+						        		<li>
+						        			<a href="#" class="game-icon">
+						        				<img src="img/stunt_games/MotoxNitroXmas.jpg" width="90%" class="img-rounded">
+						        				<span>Moto X</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon" >
+						        				<img src="img/stunt_games/bmxfreestyle2.jpg" width="90%"  class="img-rounded">
+						        				<span>BMX</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon" width="80px">
+						        				<img src="img/stunt_games/DPlargeicon_150x110.jpg" width="90%"  class="img-rounded">
+						        				<span>DPlargeicon</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon">
+						        				<img src="img/stunt_games/gravityguy2.jpg" width="90%"  class="img-rounded">
+						        				<span>Gravity Guy</span>
+						        			</a>
+						        		</li>
+						        	</ul>
+						        	<div class="clearfix"></div>
+						        	<a href="#">
+						        		<button type="button" class="btn btn-default more-games table-games-bottom-bt margin-top-55">
+						        		<span class="table-games-bt">More Stunt Games</span>
+						        		</button>
+						        	</a>
+						      	</div>
+							</div> <!-- E: top-10-games -->
+
+							<!-- B: action-games -->
+							<div class="col-sm-6 no-name-01">
+								<div class="center">
+									<a href="#">
+										<img src="img/click_to_play/OW_Oberon.jpg" width="100%" height="330px;" class="border-style">
+									</a>
+						      	</div>
+							</div>  <!-- E: action-games -->
+						</div>
+					</div> <!-- E: col-sm-5 -->
+
+
+
+					<div class="col-sm-3">
+						<div id="hot-games" class="table-games">
+							<a href="#">
+								<button type="button" class="btn btn-default cat-1 table-games-top-bt margin-bottom-20">
+								<span class="table-games-bt" >Puzzle</span>
+								</button>
+							</a>
+				        	<ul class="abc">
+				        		<li>
+				        			<a href="#" class="game-icon">
+				        				<img src="img/puzzle_games/bubbletroublemedicon.jpg" width="90%" class="img-rounded">
+				        				<span>BubbleTrouble</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon" >
+				        				<img src="img/puzzle_games/bloxorz20.jpg" width="90%"  class="img-rounded">
+				        			
+				        				<span>Bloxorz</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon" width="80px">
+				        				<img src="img/puzzle_games/doodle_god_blitzv2_150x110.png" width="90%"  class="img-rounded">
+				        				<span>Doodle God</span>
+				        			</a>
+				        		</li>
+				        		<li>
+				        			<a href="#" class="game-icon">
+				        				<img src="img/puzzle_games/foresttemple.jpg" width="90%"  class="img-rounded">
+				        				<span>ForestTemple</span>
+				        			</a>
+				        		</li>
+				        	</ul>
+				        	<div class="clearfix"></div>
+				        	<a href="#">
+				        		<button type="button" class="btn btn-default more-games table-games-bottom-bt margin-top-45">
+				        		<span class="table-games-bt">More Puzzle Games</span>
+				        		</button>
+				        	</a>
+				      	</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div id="multi-games" class="table-games">
+							<a href="#">
+								<button type="button" class="btn btn-default cat-2 table-games-top-bt">
+								<span class="table-games-bt" >Multiplayer</span>
+								</button>
+							</a>
+				        	<ul class="abc">
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/multi_games/tanki-online.jpg" width="85%" height="80px"  class="img-rounded" >
+					        				<span>Tanki Online</span>
+					        			</a>
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/Agar.io.png"width="85%" height="80px"  class="img-rounded">
+					        				<span>Agar.io</span>
+					        			</a>
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/BasketballStars.png" width="85%" height="80px"  class="img-rounded">
+					        				<span>Basketball</span>
+					        			</a>
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/multi_games/forgeofempires.jpg" width="85%" height="80px"  class="img-rounded">
+					        				<span>Forge</span>
+					        			</a>
+					        			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/multi_games/LegendsOfHonor_build_up.jpg" width="85%" height="80px"  class="img-rounded">
+					        				<span>Legend</span>
+					        			</a> 			
+					        		</li>
+					        		<li>
+					        			<a href="#" class="game-icon">
+					        				<img src="img/iphone_games/SoccerStars.png" width="85%" height="80px"  class="img-rounded">
+					        				<span>Soccer Stars</span>
+					        			</a>
+					        		</li>
+					        	</ul>
+				        	<div class="clearfix"></div>
+				        	<a href="#">
+				        		<button type="button" class="btn btn-default more-games table-games-bottom-bt">
+				        		<span class="table-games-bt">More Multiplayer Games</span>
+				        		</button>
+				        	</a>
+				      	</div>
+					</div>
+
+				</div>
+				<!-- E: Sestion 4 -->
+
+
+				<!-- B: Sestion 5 -->
+				<div id="section-4" class="row">
+
+					<!-- B: col-sm-5 -->
+					<div class="slide col-sm-5">
+						<div class="row">
+
+							<!-- B: top-10-games -->
+							<div id="d-games" class="col-sm-6">
+								<div class="table-games">
+									<a href="#">
+										<button type="button" class="btn btn-default cat-35 table-games-top-bt">
+										<span class="table-games-bt" >3D Games</span>
+										</button>
+									</a>
+						        	<ul class="abc">
+						        		<li>
+						        			<a href="#" class="game-icon">
+						        				<img src="img/3D_games/MoM.jpg" width="90%" class="img-rounded">
+						        				<span>Moto X</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon" >
+						        				<img src="img/3D_games/stealthsniperv3.jpg" width="90%"  class="img-rounded">
+						        				<span>BMX</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon" width="80px">
+						        				<img src="img/3D_games/Crash-n-Burn.jpg" width="90%"  class="img-rounded">
+						        				<span>DPlargeicon</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon">
+						        				<img src="img/3D_games/saloonbrawl2.jpg" width="90%"  class="img-rounded">
+						        				<span>Gravity Guy</span>
+						        			</a>
+						        		</li>
+						        	</ul>
+						        	<div class="clearfix"></div>
+						        	<a href="#">
+						        		<button type="button" class="btn btn-default more-games table-games-bottom-bt margin-top-30">
+						        		<span class="table-games-bt">More 3D Games</span>
+						        		</button>
+						        	</a>
+						      	</div>
+							</div> <!-- E: top-10-games -->
+
+							<!-- B: action-games -->
+							<div class="col-sm-6 no-name-01">
+								<div id="hot-games" class="table-games">
+									<a href="#">
+										<button type="button" class="btn btn-default cat-5 table-games-top-bt">
+										<span class="table-games-bt" >Shoot'Em Up Games</span>
+										</button>
+									</a>
+						        	<ul class="abc">
+						        		<li>
+						        			<a href="#" class="game-icon">
+						        				<img src="img/shoot_games/Commando2new.jpg" width="90%" class="img-rounded">
+						        				<span>Moto X</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon" >
+						        				<img src="img/shoot_games/commando3v3.jpg" width="90%"  class="img-rounded">
+						        				<span>BMX</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon" width="80px">
+						        				<img src="img/shoot_games/earntodie2012.jpg" width="90%"  class="img-rounded">
+						        				<span>DPlargeicon</span>
+						        			</a>
+						        		</li>
+						        		<li>
+						        			<a href="#" class="game-icon">
+						        				<img src="img/shoot_games/StealthSniper2.jpg" width="90%"  class="img-rounded">
+						        				<span>Gravity Guy</span>
+						        			</a>
+						        		</li>
+						        	</ul>
+						        	<div class="clearfix"></div>
+						        	<a href="#">
+						        		<button type="button" class="btn btn-default more-games table-games-bottom-bt margin-top-30">
+						        		<span class="table-games-bt">More Shoot'Em Up</span>
+						        		</button>
+						        	</a>
+						      	</div>
+							</div>  <!-- E: action-games -->
+						</div>
+					</div> <!-- E: col-sm-5 -->
+
+
+
+					<div class="col-sm-3">
+						<div id="" class="">
+							<a href="#">
+								<img src="img/click_to_play/EarnToDie2Exodus.jpg" width="100%" height="291px" class="border-style">
+							</a>
+				      	</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div id="" class="">
+									<a href="#">
+										<img src="img/click_to_play/DPpushad_.jpg" width="100%" height="291px" class="border-style">
+									</a>
+						      	</div>
+					</div>
+
+				</div>
+				<!-- E: Sestion 5 -->
+
+
+			</div>
+		</div>
+
+
+
+
+
+		<footer id="footer">
+			<div class="container border-style no-name-02">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      <a class="navbar-brand margin-bottom-10" href="#">
+					      	<img src="img/logo.png">
+					      </a>
+					    </div>
+
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav margin-top-7">
+					        <li><a href="#" class="home" style="color:white;">Home</a></li>
+					        <li><a href="#" class="ios" style="color:white;">iPhone Games</a></li>
+					        <li><a href="#" class="android" style="color:white;">Android Games</a></li>
+					        <li><a href="#" class="feed" style="color:white;">Blog</a></li>
+					        <li><a href="#" class="webmasters" style="color:white;">Games for Your Website</a></li>
+					      </ul>
+					
+					    </div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+				</nav>
+
+				<div class="row no-name-03">
+						<a href="#">Submit a Game</a>
+						<a href="#">Advertisers</a>
+						<a href="#">Contact Us</a>
+						<a href="#">Corporate</a>
+						<a href="#">Careers</a>
+						<a href="#">Internet Safety</a>
+						<a href="#">Video Tips and Tricks</a>
+						<a href="#">RSS Game Feed</a>
+						<a href="#">Sitemap</a>
+				</div>
+
+				<div class="row margin-top-45 margin-p">
+					<div class="col-sm-6">
+						<h4>Games at Miniclip</h4>
+						<p>
+							Welcome to Miniclip.com, the leading online games site, where you can play a huge range of free online games including action games, sports games, puzzle games, games for girls, mobile games, iPhone games, Android games, Windows Phone, games for kids, flash games and many more.
+						</p>
+						<br>
+						<h4>Player Games and Achievements</h4>
+						<p>On Miniclip you can play games to compile games statistics such as high scores, and rankings on your own player page and can receive awards for playing games. You can also create your own Miniclip avatar with clothing and accessories to represent you in our fun Miniclip games. You can play single player games or play advanced massive multiplayer games with other players from around the world.</p>
+					</div>
+					<div class="col-sm-6">
+						<h4>Join the Fun</h4>
+						<p>
+							Sign up free to get all the benefits of registered games players such as, high scores, your own avatar, statistics, awards and much, much more.
+						</p>
+						<br>
+						<h4>Play Mobile Games for free Online and on the Go!</h4>
+						<p>You can play select versions of mobile games for free online right at Miniclip.com without the need to own a mobile phone. If you have a mobile phone you can try the games for free on Miniclip and then download them to your iPhone, Android or Windows Phone to play on the go.</p>
+					</div>
+				</div>
+
+				<div class="row no-name-03 margin-top-30 margin-bottom-10">
+						<a href="#" class="copyright">© 2001 - 2016 Miniclip SA</a>
+						<a href="#">Terms and Conditions</a>
+						<a href="#">Privacy Policy</a>
+						<a href="#">Cookies</a>
+						<a href="#">Help</a>
+				</div>
+					
+					
+			</div>
+		</footer>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    	<script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,498 @@
+
+
+@font-face {
+    font-family: 'Miniclip';
+    src: url('http://static.miniclipcdn.com/styles/fonts/Miniclip.eot?v9');
+    src: url('http://static.miniclipcdn.com/styles/fonts/Miniclip.eot?#iefixv9') format('embedded-opentype'), url('http://static.miniclipcdn.com/styles/fonts/Miniclip.woff?v9') format('woff'), url('http://static.miniclipcdn.com/styles/fonts/Miniclip.ttf?v9') format('truetype'), url('http://static.miniclipcdn.com/styles/fonts/Miniclip.svg?v9#Miniclip') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+
+
+:before,
+:after {
+    text-decoration: none;
+    font-family: 'Miniclip';
+    speak: none;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px
+}
+
+:before {
+    margin-right: 4px
+}
+
+:after {
+    margin-left: 4px
+}
+
+:hover:before,
+:hover:after {
+    text-decoration: none
+}
+
+.home:before {
+    content: "\e651"
+}
+
+.help:before {
+    content: "\e63e"
+}
+
+.email:before {
+    content: "\e637"
+}
+
+.fullscreen:before {
+    content: "\e63a"
+}
+
+.fullscreen-exit:before {
+    content: "\e639"
+}
+
+.webmasters:before {
+    content: "\e638"
+}
+
+.comments:before {
+    content: "\e634"
+}
+
+.awards:before {
+    content: "\e631"
+}
+
+.heart-empty:before {
+    content: "\e63d"
+}
+
+.heart-full:before {
+    content: "\e63c"
+}
+
+.videos:before {
+    content: "\e64c"
+}
+
+.warning:before,
+.error:before {
+    content: "\e642"
+}
+
+.feed:before {
+    content: "\e60b"
+}
+
+.facebook:before {
+    content: "\e652"
+}
+
+.outlook:before {
+    content: "\e655"
+}
+
+.gmail:before {
+    content: "\e653"
+}
+
+.google:before,
+.google-plus:before {
+    content: "\e654"
+}
+
+.facebook:before {
+    content: "\e652"
+}
+
+.twitter:before {
+    content: "\e656"
+}
+
+.youtube:before {
+    content: "\e657"
+}
+
+.top-rated:before {
+    content: "\e644"
+}
+
+.top:before {
+    content: "\e64b"
+}
+
+.calendar:before {
+    content: "\e632"
+}
+
+/*.info:before {
+    content: "\e63f"
+}*/
+
+.video-player:before {
+    content: "\e64c"
+}
+
+.search:before {
+    content: "\e643"
+}
+
+.game-guide:before {
+    content: "\e63b"
+}
+
+.game-controller:before {
+    content: "\e635"
+}
+
+.store:before {
+    content: "\e648"
+}
+
+.download:before {
+    content: "\e636"
+}
+
+.leaderboard:before {
+    content: "\e640"
+}
+
+[class^='cat-']:before,
+[class*=' cat-']:before {
+    font-family: 'Miniclip';
+    speak: none;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    content: "\e65c"
+}
+
+.more-down:before {
+    content: "\e658"
+}
+
+.more-menu:before {
+    content: "\e650"
+}
+
+.cat-13:before {
+    content: "\e602"
+}
+
+.cat-1133:before {
+    content: "\e608"
+}
+
+.cat-1185:before {
+    content: "\e62b"
+}
+
+.cat-1212:before {
+    content: "\e609"
+}
+
+.cat-4:before,
+.cat-1238:before,
+.cat-1003:before {
+    content: "\e610"
+}
+
+.cat-3:before,
+.cat-1001:before {
+    content: "\e620"
+}
+
+.cat-2:before,
+.cat-479:before,
+.cat-1141:before,
+.cat-1301:before,
+.cat-1216:before {
+    content: "\e616"
+}
+
+.cat-1:before,
+.cat-1252:before {
+    content: "\e61a"
+}
+
+.cat-35:before {
+    content: "\e600"
+}
+
+.cat-1194:before,
+.ios:before,
+.appleiphone:before {
+    content: "\e62d"
+}
+
+.cat-1207:before,
+.windowsmobile:before {
+    content: "\e62e"
+}
+
+.cat-503:before,
+.android:before {
+    content: "\e62c"
+}
+
+.cat-23:before,
+.cat-6:before {
+    content: "\e64b"
+}
+
+.cat-1244:before,
+.cat-1270:before {
+    content: "\e644"
+}
+
+.cat-485:before {
+    content: "\e60d"
+}
+
+.cat-482:before {
+    content: "\e612"
+}
+
+.cat-525:before,
+.cat-1305:before {
+    content: "\e631"
+}
+
+.cat-17:before {
+    content: "\e61c"
+}
+
+.cat-484:before {
+    content: "\e625"
+}
+
+.cat-17:before {
+    content: "\e61c"
+}
+
+.cat-1145:before {
+    content: "\e626"
+}
+
+.cat-513:before {
+    content: "\e601"
+}
+
+.cat-1201:before,
+.cat-0:before,
+.cat-1262:before {
+    content: "\e611"
+}
+
+.cat-26:before,
+.cat-477:before,
+.cat-1258:before {
+    content: "\e61b"
+}
+
+.cat-1109:before {
+    content: "\e629"
+}
+
+.cat-1250:before {
+    content: "\e633"
+}
+
+.cat-1296:before,
+.cat-18:before {
+    content: "\e61f"
+}
+
+.cat-1268:before {
+    content: "\e609"
+}
+
+.cat-1147:before {
+    content: "\e624"
+}
+
+.cat-476:before {
+    content: "\e606"
+}
+
+.cat-1192:before {
+    content: "\e621"
+}
+
+.cat-1210:before,
+.cat-1309:before {
+    content: "\e614"
+}
+
+.cat-1290:before,
+.cat-1256:before {
+    content: "\e64c"
+}
+
+.cat-1190:before {
+    content: "\e643"
+}
+
+.cat-34:before {
+    content: "\e648"
+}
+
+.cat-1240:before {
+    content: "\e617"
+}
+
+.cat-516:before {
+    content: "\e604"
+}
+
+.cat-1151:before,
+.cat-1155:before {
+    content: "\e623"
+}
+
+.cat-1157:before {
+    content: "\e615"
+}
+
+.cat-432:before {
+    content: "\e638"
+}
+
+.cat-517:before {
+    content: "\e604"
+}
+
+.cat-519:before {
+    content: "\e617"
+}
+
+.cat-1278:before {
+    content: "\e61c"
+}
+
+.cat-515:before {
+    content: "\e603"
+}
+
+.cat-1293:before {
+    content: "\e605"
+}
+
+.cat-1143:before {
+    content: "\e60a"
+}
+
+.cat-488:before {
+    content: "\e60e"
+}
+
+.cat-497:before {
+    content: "\e607"
+}
+
+.cat-40:before {
+    content: "\e619"
+}
+
+.cat-1272:before {
+    content: "\e61d"
+}
+
+.cat-5:before {
+    content: "\e61e"
+}
+
+.cat-523:before {
+    content: "\e622"
+}
+
+.cat-1292:before {
+    content: "\e628"
+}
+
+.cat-1149:before {
+    content: "\e62a"
+}
+
+.cat-490:before {
+    content: "\e60f"
+}
+
+.cat-511:before {
+    content: "\e640"
+}
+
+.cat-521:before {
+    content: "\e60c"
+}
+
+.cat-7:before {
+    content: "\e613"
+}
+
+.cat-1304:before {
+    content: "\e627"
+}
+
+.cat-1316:before {
+    content: "\e662"
+}
+
+.link-pool:before {
+    content: "\e601"
+}
+
+.link-agar-io:before {
+    content: "\e644"
+}
+
+.link-tanki:before {
+    content: "\e64a"
+}
+
+
+.language:after {
+    content: "\e659";
+    text-decoration: none;
+}
+
+.language:hover {
+    text-decoration: none;
+}
+
+.hot-games:before {
+    content: "\e611";
+    padding-right: 7px;
+}
+
+.more-games:after {
+    content: "\e65d";
+}
+
+
+.search-btn:before {
+    content: "\e643";
+}
+
+
+
+
+
+
